@@ -1,21 +1,60 @@
 /* General Styles */
-body {
+* {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
-    background-color: #f0f0f0;
+    padding: 0;
+}
+.menupart{
+    background: #f23d3d;
+}
+/* Navigation Bar */
+.container {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f23d3d;
+    padding: 15px 30px;
 }
 
-/* Header */
-header {
-    background: #333;
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
     color: white;
+}
+
+/* Menu Items */
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.menu li a:hover {
+    background: #0606e4;
+    border-radius: 5px;
+}
+header {
+    background: #eba326;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
-    border-radius: 10px;
 }
-
-/* Paragraph */
 p {
     font-size: 18px;
     line-height: 1.5;
@@ -62,3 +101,4 @@ button {
 button:hover {
     background: #2d11e5;
 }
+
